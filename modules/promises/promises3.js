@@ -1,0 +1,5 @@
+//                               fulfilled
+//                              /
+// Promise      --   pending -->
+//                              \
+//                               rejected
