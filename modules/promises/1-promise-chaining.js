@@ -5,11 +5,11 @@ const fx = async () => {
 }
 
 const add = (a, b) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(a + b);
-        }, 2000);
-    })
+    return new Promise(function (resolve, reject) => {
+    setTimeout(() => {
+        resolve(a + b);
+    }, 2000);
+})
 }
 // type 1
 add(2, 3)
