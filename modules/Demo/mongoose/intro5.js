@@ -40,9 +40,9 @@ const checkEven = (arg, callback) => {
 checkEven(10).then(res => console.log(res)).catch((ex) => console.log(ex));
 checkEven(11).then(res => console.log(res)).catch((ex) => console.log(ex));
 
-// const main = async () => {
-//     const tt = checkEven(10);
-
-//     console.log("wait");
-// }
-// main();
+const main = async () => {
+    const tt = await checkEven(10);
+    console.log(tt);
+    console.log("wait");
+}
+main();
